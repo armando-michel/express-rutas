@@ -18,6 +18,10 @@ app.get('/lucas', (req, res) => {
   res.send('Buen noches Lucas')
 })
 
+app.get('/tatiana', (req, res) => {
+  res.send('Buen noches Tati')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
